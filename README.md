@@ -16,8 +16,9 @@ study notes
 
 # MYBATIS
 date类型的数据 在条件语句中只要判空就好，不然会报错
-eg.  <if test="startTime != null and startTime = ''">
-          and ho.order_create_time >= #{startTime,jdbcType=TIMESTAMP}
-     </if>
+eg.  
+<if test="startTime != null and startTime = ''">
+    and ho.order_create_time >= #{startTime,jdbcType=TIMESTAMP}
+</if>
 and startTime = '' ---> 会报 ParseException
 直接去掉and startTime = ''就好 具体原因去看下mybatis源码
