@@ -13,6 +13,9 @@ study notes
   ##跨域
   返回json数据时间统一是时间戳
   https://www.cnblogs.com/nuccch/p/7875189.html
+  
+  ##@Valid的使用规则
+  https://blog.51cto.com/825272560/2121519或去官网
 
 # MYBATIS
 ##date类型的数据 在条件语句中只要判空就好，不然会报错
