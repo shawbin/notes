@@ -15,7 +15,10 @@ study notes
   https://www.cnblogs.com/nuccch/p/7875189.html
   
   ##@Valid的使用规则
-  https://blog.51cto.com/825272560/2121519或去官网
+  去官网或https://blog.51cto.com/825272560/2121519
+  
+  ##RestTemplate使用指南
+  https://segmentfault.com/a/1190000016584890
 
 # MYBATIS
 ##date类型的数据 在条件语句中只要判空就好，不然会报错
