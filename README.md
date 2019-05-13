@@ -18,7 +18,10 @@ study notes
   去官网或https://blog.51cto.com/825272560/2121519
   
   ##RestTemplate使用指南
-  https://segmentfault.com/a/1190000016584890
+  如果需要从应用程序调用远程REST服务，你可以使用Spring框架的RestTemplate类，由于RestTemplate实例通常需要在使用之前进行定制，
+  因此Spring Boot不提供任何自动配置的RestTemplate bean。但是，它可以自动配置一个RestTemplateBuilder，当需要时，它可以用来
+  创建RestTemplate实例。自动配置的RestTemplateBuilder确保将合理的HttpMessageConverters应用于RestTemplate实例。
+  ref:https://segmentfault.com/a/1190000016584890
 
 # MYBATIS
 ##date类型的数据 在条件语句中只要判空就好，不然会报错
