@@ -23,6 +23,9 @@ study notes
   创建RestTemplate实例。自动配置的RestTemplateBuilder确保将合理的HttpMessageConverters应用于RestTemplate实例。
   ref:https://segmentfault.com/a/1190000016584890
   ref:https://www.cnblogs.com/hujunzheng/p/6018505.html
+  
+  ##rabbitmq使用及安装
+  ref:https://www.cnblogs.com/ericli-ericli/p/5902270.html
 
 # MYBATIS
 ##date类型的数据 在条件语句中只要判空就好，不然会报错
